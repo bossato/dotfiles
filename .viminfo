@@ -1,0 +1,667 @@
+# この viminfo ファイルは Vim 7.0 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/import
+
+# 最後の Substitute 検索パターン:
+~MSle0&ui
+
+# 最後に置換された文字列:
+$header-ui
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q
+:w
+:wq
+:vimgrep /next/j www_pc/htdocs/resource/js/original/*
+:vimgrep /loginInit/j www_pc/htdocs/resource/js/original/*
+:vimgrep /login/j www_pc/htdocs/resource/js/original/*
+:%s/ui/header-ui/gc
+:e
+:%s/displaymode/force_pc/gc
+:vimgrep /displaymode/j www_pc/htdocs/*.php
+:vimgrep /displaymode/j product/ap1/app/**/*
+:sp
+:vimgrep /UPLOAD_ERR_OK/j product/ap1/app/**/*
+:vimgrep /UPLOAD_ERR_OK/j www_pc/htdocs/*
+:vimgrep /UPLOAD_ERR_OK/j product/ap1/etc/**/*
+:vimgrep /splink/j product/ap1/etc/**/*
+:vimgrep /splink/j product/ap1/app/**/*
+:vimgrep /display-mode-pc/j product/ap1/template/ja_JP/sp*/**/*
+:vimgrep /display-mode-pc/j www_pc/htdocs/spresource/css/**/*
+:vimgrep /cookie/j www_pc/htdocs/spresource/js/**/*
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/import
+?/komado
+?/login_url
+? ui
+?/header
+?/clearfix
+?/inner
+?/span
+?/navi
+? displaymode
+?/less
+?/ul
+?/data-src
+?/alter
+?/register
+?/resiter
+?/get
+?/etc
+?/cookie
+?/news
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+"0	LINE	0
+	        $('a.login-btn').click(function(){
+	            alert("test");
+	            if (window.top.location.href) {
+	                var url = $(this).attr('href');
+	                url+= (url.indexOf('?', 0) === -1) ? '?' : '&';
+	                url+= 'next=' + encodeURIComponent(window.top.location.href);
+	                $(this).attr('href', url);
+	            }
+	        });
+"1	LINE	0
+	<link rel="stylesheet" href="/tvnews/pc/css/komado.css?_=20130225">
+"2	LINE	0
+	<link rel="stylesheet" href="/tvnews/pc/css/komado.css?_=20130225">
+"3	LINE	0
+	            alert("test");
+"4	LINE	0
+	            alert("test");
+"5	LINE	0
+	
+"6	LINE	0
+	
+	    <a href="/o/r/login">
+	        asdfasdf
+	    </a>
+"7	LINE	0
+	        <span class="ui-btn-inner ui-btn-corner-all ui-corner-top ui-corner-bottom">
+	            <span class="ui-btn-text">ログイン・新規会員登録</span><span class="ui-icon ui-icon-arrow-r ui-icon-shadow"></span>
+	        </span>
+"8	LINE	0
+	    <{if $var.logindata}>
+"9	LINE	0
+	                <span class="ui-btn-inner ui-btn-corner-all ui-corner-top ui-corner-bottom">
+	                    <span class="ui-btn-text">myホーム</span>
+	                    <span class="ui-icon ui-icon-arrow-r ui-icon-shadow"></span>
+	                </span>
+"j	CHAR	0
+	7182
+<j:qkkkkkkkkkkkkkkkkkjjjjjjjovar_dump($this-.�kb>am->memcache_content->get($cache_key);exit�kb�kb�kb�kb�kb);exit;]w:whhhhhhhhhhhhkllllllllllllllllllllllllllllllldd:wjji//j$hhhhhhhxxxxxx:wkkuuuuuuuu:wjkdd:wjllllljjjjjjjjjjjkkkkkkkkkkkkkjjjllllllllllllllllllllllljllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjjllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllljjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkk:qkkkkkkkkkkkkkkkkkkkkkojjjjjjjjjjjjjjjjjjjjkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjkkkjjjkjkkkkkkojjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjlllllllllllllllllllllllllllllllllljllllllllllllllllllllllljlllllllllllllllllllhkkkkkkkkkkkkkkkkkkkkkkij/getMemberDataByAuthInsideIdjjjjjjjjkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjllllllllllllllllllllllllj:spkkkkhjjjjjjojjjjjjjjjjjjjjjjjkkkkkjk1GjkjjjjjjjjjjllllllllllllllllllllllllllllllllllllllllljhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhllllllllllllllllllllllllkVjjyjjplllllllllllllllxxxxxxiT�kbBLOGlljhhhhxxxxxxiBLOGlllllllllllllhkbllllllllllllhxxxxxhhhbcwblog.th�kb�kbthn�kbanksyou_opo�kb�kb�kbpoint:wjhggjjjjjjjjjjjjjjjjjjjjjjjjjjjkkklllllllllllllllllllllllllllllllllllcw86400llllllllla+23�kb�kb�kb*24llldrrd:wjkkkkkkkko	var_dump($this->am->member->CACHEKEY_BLOGDATA_BY_ID);exit;:whhhhhhhhhhhhhhhhhhhhhhhhhhhhhhaself:::wdd:wjjjjkkkkklllllllllllllllllllllllllllllllllllllllllllllllllluu:wjbbbbllllllhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhklcwvarjhhcwvar:wkkjllllllllllllllllllllllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhuu:wllllllllllllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlllllllllllllllllllllljkkjjjkllllllllllllllllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhllllllllllllllllllllllllllllllllllllllljjjjkjjjjjkkkkhhhhhhhhhhhhhhhhjjjhjjjjjjjjjjjjjjjjjjjjijjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjk:qkkkkkkkkkkk1Gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkklllllllllllllllllllllllxxxxi_THANKSYOU_PONTI�kb�kb�kbINT:wjhhhhhhhhhhhhhhhhhlllxxxxi_THANKSYOU_POINT:wlllllllllhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjjGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkk:qjjjjjjjjjjjjjkkkkkkkkkkkkkkj/CACHEKEY_MEMBERDATA_BY_IDnnn/CACHEKEY_MEMBERID_BY_AUTHINSIDEIDnnnjjjjjjjjjjjjjkjllllllljkkkkkkkkkjhhhhhhhijjjjjjjjjjjjjjjjhjjjjjkkkkkkkjjjjjjjjjjjjjjjjjkojjjjjjjjjjj jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjkkkkkkkkkkhlcwvarjhhcwvarkla$jhAhuu^^llla$:wjjjjjjkkkkkkkkhhhhhhhhhhhhhhhllllllllllllllllhhhbcwCACHEKEY_BLOG_THANKSYOU_POINT_BY_ID:wjhhhhhhhhhhhhhhhhhhhhhhhhhhhkhhhcwcache_key_blog_thankso�kbyou_point_�kb:wjllllllllllllhbcwcah�kbchekey_�kb�kb�kb�kb_�kbkey_blog_thanksyou_point:wjbcwcachetime_blog_thanksyou_time�kb�kb�kb�kbpoint:wkjjkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlllllx:whhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlllllllllllllllljllllxxxxxxxxxxxxxxxxxxxxxxxxxi$this->am->member->cachekey_blog_thanksyou_pointkddovar_dump($cache_key);exit;:whhhhhhhhhhhhhhhhhhhhhhhhdd:wlllllljjlllllllllllllljlllllllllllllllllllllllllllllllllllllllllllxxxxxxxxi$this->am->member->cachetime_blog_thanksyou_point:whhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjj:qjjjhkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjokojjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkjjjjjjjojjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkjjjjjjjjjjjjjjkkkkkkkkkkk:qkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkjjjjjjjjjjjjhkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk1GjRjjjjjjjjjjjjjjjjjjjjl:bim�kb�kb�kbvimgrep /member_blogs/j pr	ap1	ap	**/*jjjjjjkkkkkkjjjjjjjj:qkkkkkkkkkkkkkkkhhhhhhjjjjjjjjjjjjjjllli//:wlllllllllllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhllllllllllllllllllllllllllllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhllllllllllllllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhkkkjoddjjkkkkko	var_dump($this->am->member�kb�kb�kbcache_content-/�kb>get($cache_key));exit;:wddp:wi//:wiu:whdd:wjjlhxx:wjkkkkhjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjkkijjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkklllllllllllllllllllllllllllllllllllllllllllllllllllllllllVykpi$data['thank�kb�kb�kb�kb�kbtotal_thanksyou_point'] = llllllllllllllllllllllcwgetllllhkjjjjjjjjjjkkkkkkkkkklllllllllllllljlhvlllllllllllllllllllllllllllllllllllxlllhxxxxxhhcwi�kb$this->�kb�kb�kb�kb�kb�kb�kb�kb(sprintf($this->am->member->cachekey_blog_thanksyou_point, $memberid);�k7hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhllllllllllllxxxxxxxxxxxxxullllllllllllllllllllllllllllllllllcwdata['memberid']lhl:whhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhk:qjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkk$bbwcwtu�kbrue:wjkkklllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllhlhlllllllllllllllllllllll$ha):whhhhhhhhhhhhhhhhhhhhhhhhkkkkkkkkkkkkkkkkkkkkkkkkkkkk$u:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkhbcwfalse:wjjjjjjjjjjjjjjjjjkovar_dump($data);exit;:wdd:wuuu:wjjjjjjjjjjjjjjjjjjjjjjku:wuu:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjkjkovar_dump($this->am->memcache->get(sprintf($this->cachekey_blog_thanksyou_point, $data['memberid'])));exit;:w�k71Gjjjjjjjjjjjjjjjjjjkijjjlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllljkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkkkkovar_dump($cache_key();�kb�kb�kb);exit;:wkkkjjkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkovar_dump(sprintf($this->cachekey_blog_thanksyou_point, $data['memberid']));exit;:wjjjjdd:wjjjlllllllllllllllllllllllllllllk1Gjjjjjjjjjjjjjjjjju:wjllllllllllllllllllllllllllllllllxxxxx:whhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhllllllllllllllllllllllljlla_content:wkdd:wjllllllllllllllllllllllllllllllllllllllllllllllllllllllla_content:wkdd:wovar_dump($data);exit;:wdd:wjhjjjjjjjjjjjjjjjjjjjjjjjjjjijjjjjjjjjjjjjjllllllllllllllllllllllllllllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjijjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkj:qjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjkklllllllllllllllllllllllllllllllllllllllllllllllllllllhxxxxxxxx:wjjhhhhkkkljjjjhhhhhhhxxxxxxxx:wj:qkkkjkkkkkkko	var_dump($data);exit;ddp:wdd;w:wj:qkkk
+"k	CHAR	0
+	kk:qjjjjjjjjj:qRjjjjjjjjjjjjjjjjjkijhkojkx:whjokx:wj:qRkjojjjjjjhkijjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkVGkkd:w�kujjjj
+"m	LINE	0
+	/* --------------------------------------------------------------
+""-	CHAR	0
+	click
+
+# ファイルマーク:
+'0  113  0  /extra/home/sato/public_html/39web/NERD_tree_1
+'1  316  0  /extra/home/sato/public_html/39web/NERD_tree_1
+'2  563  0  /extra/home/sato/public_html/39web/NERD_tree_1
+'3  61  0  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+'4  12  69  /extra/home/sato/public_html/39web/www_pc/htdocs/navi.html
+'5  1  6  /extra/home/sato/public_html/39web/NERD_tree_1
+'6  192  0  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/sp/pagemaster.main.tpl
+'7  3281  19  /extra/home/sato/public_html/39web/NERD_tree_1
+'8  18  12  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/footer.sp.tpl
+'9  3804  12  /extra/home/sato/public_html/39web/NERD_tree_1
+
+# ジャンプリスト (新しいものが先):
+-'  113  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  60  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  142  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  1  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  1  0  /extra/home/sato/public_html/39web/www_pc/htdocs/spresource/js/39.navi.js
+-'  316  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  392  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  1  0  /extra/home/sato/public_html/39web/www_pc/htdocs/resource/css/import.css
+-'  563  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  425  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  587  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  54  48  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  610  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  720  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  1  0  /extra/home/sato/public_html/39web/www_pc/htdocs/spresource/css/navi.less
+-'  61  0  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  32  0  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  62  12  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  35  4  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  36  12  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  42  51  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  58  4  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  59  0  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  10  6  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/sp/pagemaster.main.tpl
+-'  21  42  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/sp/pagemaster.main.tpl
+-'  97  5  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/sp/pagemaster.main.tpl
+-'  111  0  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/sp/pagemaster.main.tpl
+-'  112  0  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/sp/pagemaster.main.tpl
+-'  30  0  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  23  15  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  29  0  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  31  0  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  24  15  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+-'  1191  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  1200  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  1196  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  1312  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  105  37  /extra/home/sato/public_html/39web/www_pc/htdocs/spresource/css/navi.less
+-'  314  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  176  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  338  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  361  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  471  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  1  0  /extra/home/sato/public_html/39web/www_pc/htdocs/spresource/css/navi.less
+-'  10  6  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/sp/pagemaster.main.tpl
+-'  21  42  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/sp/pagemaster.main.tpl
+-'  97  5  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/sp/pagemaster.main.tpl
+-'  111  0  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/sp/pagemaster.main.tpl
+-'  112  0  /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/sp/pagemaster.main.tpl
+-'  942  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  190  0  /extra/home/sato/public_html/39web/NERD_tree_1
+-'  266  0  /extra/home/sato/public_html/39web/NERD_tree_1
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> /extra/home/sato/public_html/39web/www_pc/htdocs/spresource/js/39.navi.js
+	"	28	28
+	^	26	29
+	.	26	28
+	+	26	28
+
+> /extra/home/sato/public_html/39web/NERD_tree_1
+	"	113	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/loginstatus.sp.tpl
+	"	7	73
+	^	7	74
+	.	7	73
+	+	7	73
+
+> /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/header.sp.tpl
+	"	53	4
+	^	54	56
+	.	54	55
+	+	72	8
+	+	72	27
+	+	72	0
+	+	72	0
+	+	72	319
+	+	72	0
+	+	72	0
+	+	72	0
+	+	72	74
+	+	72	0
+	+	72	0
+	+	62	0
+	+	62	0
+	+	62	8
+	+	62	27
+	+	62	0
+	+	62	319
+	+	62	109
+	+	62	3
+	+	62	0
+	+	62	206
+	+	62	7
+	+	62	0
+	+	62	0
+	+	62	0
+	+	62	0
+	+	62	0
+	+	62	21
+	+	62	0
+	+	62	0
+	+	62	0
+	+	62	27
+	+	62	21
+	+	62	5
+	+	62	0
+	+	62	0
+	+	1	0
+	+	23	15
+	+	23	0
+	+	54	0
+	+	59	0
+	+	54	0
+	+	54	2
+	+	59	4
+	+	54	3
+	+	53	0
+	+	52	0
+	+	35	27
+	+	37	130
+	+	42	84
+	+	42	56
+	+	42	73
+	+	42	0
+	+	42	65
+	+	42	8
+	+	43	0
+	+	45	4
+	+	37	38
+	+	45	128
+	+	46	84
+	+	47	63
+	+	48	72
+	+	49	15
+	+	50	8
+	+	51	0
+	+	36	0
+	+	54	0
+	+	33	21
+	+	59	0
+	+	54	4
+	+	57	0
+	+	60	0
+	+	59	0
+	+	54	0
+	+	54	0
+	+	35	0
+	+	33	17
+	+	37	0
+	+	38	0
+	+	34	0
+	+	62	0
+	+	62	0
+	+	62	14
+	+	62	0
+	+	61	0
+	+	35	0
+	+	36	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	54	0
+	+	55	0
+	+	56	0
+	+	54	55
+
+> /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/loginstatus.header.tpl
+	"	1	0
+
+> /extra/home/sato/public_html/39web/www_pc/htdocs/spresource/js/39.common.js
+	"	45	0
+
+> /extra/home/sato/public_html/39web/www_pc/htdocs/resource/css/import.css
+	"	2	0
+	^	90	49
+	.	90	48
+	+	90	46
+	+	91	0
+	+	90	48
+
+> /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/pc/pagemaster.image.tpl
+	"	28	15
+
+> /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/pc/pagemaster.main.tpl
+	"	29	63
+	^	22	64
+	.	22	63
+	+	25	0
+	+	22	63
+
+> /extra/home/sato/public_html/39web/www_pc/htdocs/spresource/css/navi.less
+	"	105	20
+	^	132	21
+	.	132	20
+	+	361	0
+	+	361	0
+	+	361	0
+	+	349	0
+	+	349	0
+	+	349	0
+	+	345	0
+	+	345	0
+	+	323	0
+	+	316	0
+	+	323	0
+	+	345	0
+	+	349	0
+	+	316	0
+	+	307	0
+	+	306	0
+	+	361	0
+	+	346	0
+	+	361	0
+	+	361	0
+	+	361	10
+	+	361	0
+	+	361	0
+	+	361	0
+	+	361	0
+	+	361	0
+	+	361	0
+	+	361	0
+	+	361	0
+	+	361	0
+	+	361	0
+	+	361	0
+	+	361	0
+	+	361	0
+	+	361	11
+	+	335	0
+	+	323	0
+	+	313	0
+	+	323	0
+	+	314	0
+	+	323	0
+	+	315	0
+	+	324	11
+	+	334	0
+	+	332	4
+	+	323	0
+	+	323	4
+	+	323	0
+	+	316	0
+	+	325	0
+	+	323	0
+	+	335	0
+	+	361	13
+	+	356	0
+	+	356	0
+	+	361	0
+	+	361	0
+	+	352	0
+	+	351	0
+	+	360	0
+	+	356	0
+	+	357	0
+	+	356	24
+	+	351	10
+	+	350	10
+	+	356	0
+	+	353	13
+	+	351	0
+	+	357	0
+	+	316	0
+	+	323	0
+	+	321	82
+	+	323	0
+	+	325	0
+	+	333	0
+	+	49	0
+	+	261	11
+	+	263	12
+	+	264	0
+	+	264	0
+	+	359	4
+	+	264	0
+	+	270	0
+	+	281	0
+	+	286	0
+	+	289	0
+	+	292	0
+	+	300	0
+	+	305	0
+	+	317	0
+	+	324	0
+	+	335	0
+	+	346	0
+	+	350	0
+	+	353	0
+	+	356	0
+	+	145	25
+	+	129	0
+	+	131	14
+	+	132	20
+
+> /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/sp/pagemaster.main.tpl
+	"	164	64
+	^	17	43
+	.	17	0
+	+	30	4
+	+	30	0
+	+	30	25
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	19
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	4
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	47
+	+	30	0
+	+	30	0
+	+	30	0
+	+	186	0
+	+	186	0
+	+	186	0
+	+	186	0
+	+	186	0
+	+	186	0
+	+	186	0
+	+	186	0
+	+	186	0
+	+	186	0
+	+	186	20
+	+	186	12
+	+	112	0
+	+	186	0
+	+	186	0
+	+	186	56
+	+	186	0
+	+	23	48
+	+	20	0
+	+	20	0
+	+	17	0
+	+	186	0
+	+	112	0
+	+	112	0
+	+	112	0
+	+	112	0
+	+	112	4
+	+	112	0
+	+	22	0
+	+	22	0
+	+	186	0
+	+	20	0
+	+	117	0
+	+	22	0
+	+	17	42
+	+	20	0
+	+	20	0
+	+	17	42
+	+	112	15
+	+	17	42
+	+	20	0
+	+	20	0
+	+	112	0
+	+	112	49
+	+	111	0
+	+	112	0
+	+	74	0
+	+	73	0
+	+	73	0
+	+	75	0
+	+	86	0
+	+	100	0
+	+	110	0
+	+	37	0
+	+	34	0
+	+	37	0
+	+	141	0
+	+	37	0
+	+	173	121
+	+	173	63
+	+	173	0
+	+	18	0
+	+	110	0
+	+	101	0
+	+	102	0
+	+	103	3
+	+	104	18
+	+	105	3
+	+	106	3
+	+	107	3
+	+	122	0
+	+	121	0
+	+	119	0
+	+	120	0
+	+	119	0
+	+	112	0
+	+	111	0
+	+	113	0
+	+	114	0
+	+	17	0
+
+> /extra/home/sato/public_html/39web/product/ap1/template/ja_JP/insertparts/common/footer.sp.tpl
+	"	35	8
+	^	6	163
+	.	6	162
+	+	6	162
+
+> /extra/home/sato/public_html/39web/www_pc/htdocs/resource/js/original/39.blog.js
+	"	1	0
+
+> /extra/home/sato/public_html/39web/www_pc/htdocs/resource/js/original/39.circle.js
+	"	1	0
+
+> /extra/home/sato/public_html/39web/www_pc/htdocs/resource/js/original/39.common.js
+	"	101	0
+
+> /extra/home/sato/public_html/39web/www_pc/htdocs/resource/js/original/39.common.rsidebar.js
+	"	1	0
+
+> /extra/home/sato/public_html/39web/www_pc/htdocs/resource/js/original/39.myhome.js
+	"	1	0
+
+> /extra/home/sato/public_html/39web/www_pc/htdocs/resource/js/original/39.review.js
+	"	1	0
+
+> /extra/home/sato/public_html/39web/www_pc/htdocs/resource/js/original/39.sale.js
+	"	1	0
+
+> /extra/home/sato/public_html/39web/www_pc/htdocs/resource/js/original/jquery.form.js
+	"	1	0

@@ -1,4 +1,4 @@
-colorscheme BlackSea
+"colorscheme molokai
  
 nmap <DOWN> <ESC>
 nmap <RIGHT> <ESC>
@@ -97,26 +97,6 @@ endif
 nmap <silent> <F7> :NERDTreeToggle<CR>
 let NERDTreeShowHidden = 1
 
-" phpsyntaxcheck
-"augroup phpsyntaxcheck
-"    autocmd!
-"    autocmd BufWrite *.php w !php -l
-"augroup END
-
-""
-" PHP Lint
-nmap ,l :call PHPLint()<CR>
-
-""
-" PHPLint
-"
-" @author halt feits <halt.feits at gmail.com>
-"
-function PHPLint()
-  let result = system( &ft . ' -l ' . bufname(""))
-    echo result
-    endfunction
-
 " grepopen
 augroup grepopen
     autocmd!
@@ -128,6 +108,3 @@ au BufNewFile,BufRead *.less    setf less
 
 " JSX
 au BufNewFile,BufRead *.jsx    setf jsx
-
-" au InsertEnter * hi StatusLine guifg=DarkBlue guibg=Gray gui=none ctermfg=Blue ctermbg=Yellow cterm=none
-" au InsertLeave * hi StatusLine guifg=DarkBlue guibg=Gray gui=none ctermfg=Blue ctermbg=DarkGray cterm=none
