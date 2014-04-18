@@ -14,13 +14,16 @@ set title
 set number
 set autoindent
 set expandtab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
 
 set wrapscan
 set ignorecase
 set smartcase
+
+syntax on
+set hlsearch
 
 " タブ
 set showtabline=2
@@ -94,6 +97,7 @@ if exists('&ambiwidth')
 endif
 
 "NERDTree
+nmap <silent> <S-n> :NERDTreeToggle<CR>
 nmap <silent> <F7> :NERDTreeToggle<CR>
 let NERDTreeShowHidden = 1
 
