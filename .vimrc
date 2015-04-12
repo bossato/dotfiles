@@ -1,5 +1,9 @@
-"colorscheme molokai
- 
+" colorscheme
+syntax enable
+set background=dark
+colorscheme solarized
+let g:solarized_termcolors=256
+
 " key
 nmap <DOWN> <ESC>
 nmap <RIGHT> <ESC>
@@ -14,26 +18,17 @@ set showcmd
 set nocompatible
 set title
 set number
-set hidden
-set showmatch
 
 " indent
 set autoindent
-set smartindent
 set expandtab
 
 set shiftwidth=2 softtabstop=2 tabstop=2
-if expand("%:t") =~ ".*\.php"
-  set shiftwidth=4 softtabstop=4 tabstop=4
-endif
 
 " search
 set wrapscan
 set ignorecase
 set smartcase
-
-" syntax
-syntax on
 set hlsearch
 
 " etc
