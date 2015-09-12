@@ -1,7 +1,16 @@
+" neobundle
+if has('vim_starting')
+  set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
+
+call neobundle#begin(expand('~/.vim/bundle/'))
+  NeoBundle 'Shougo/vimfiler'
+  NeoBundle 'scrooloose/nerdtree'
+call neobundle#end()
+
 " colorscheme
 syntax enable
 set background=dark
-colorscheme solarized
 let g:solarized_termcolors=256
 
 " key
