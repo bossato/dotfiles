@@ -6,6 +6,7 @@ endif
 call neobundle#begin(expand('~/.vim/bundle/'))
   NeoBundle 'Shougo/vimfiler'
   NeoBundle 'scrooloose/nerdtree'
+  NeoBundle 'Yggdroot/indentLine'
 call neobundle#end()
 
 " colorscheme
@@ -114,12 +115,10 @@ endif
 nmap <silent> <S-n> :NERDTreeToggle<CR>
 nmap <silent> <F7> :NERDTreeToggle<CR>
 let NERDTreeShowHidden = 1
+let g:NERDTreeIgnore=['\.DS_Store$', '\.swp$', '\~$']
 
 " grepopen
 augroup grepopen
   autocmd!
   autocmd QuickfixCmdPost vimgrep cw
 augroup END
-
-" Less
-au BufNewFile,BufRead *.less    setf less
